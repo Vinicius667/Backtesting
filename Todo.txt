@@ -3,4 +3,8 @@ Test 1
     high(-4)>high(-3)>high(-2)
 3 times higher lows:
     low(-2)<low(-1)<low(-0)
-mark open(-2) => Indicator => Create line to next 
+mark open(-2) => Indicator => Create line to next
+
+Include lines even when the next point after an open is the same. In this case, ignore the next point and trace the line from it.
+
+
