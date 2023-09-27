@@ -6,5 +6,3 @@ Test 1
 mark open(-2) => Indicator => Create line to next
 
 Include lines even when the next point after an open is the same. In this case, ignore the next point and trace the line from it.
-
-
