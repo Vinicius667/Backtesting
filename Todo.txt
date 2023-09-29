@@ -6,3 +6,4 @@ Test 1
 mark open(-2) => Indicator => Create line to next
 
 Include lines even when the next point after an open is the same. In this case, ignore the next point and trace the line from it.
+if lowest(idx_seg,idx_seg-1) < lowest(idx_seg-2,idx_seg-3) => dont merge
