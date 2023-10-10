@@ -5,5 +5,7 @@ Test 1
     low(-2)<low(-1)<low(-0)
 mark open(-2) => Indicator => Create line to next
 
-Include lines even when the next point after an open is the same. In this case, ignore the next point and trace the line from it.
-if lowest(idx_seg,idx_seg-1) < lowest(idx_seg-2,idx_seg-3) => dont merge
+Analysis from 1450 to 1485
+delete index 1454 because their values are englobed by the previous candlestick
+the minimum for the comparisson for first two segments is the Low of 1453
+if the prices in between the two segments are below the minimum previously defined, dont marge
