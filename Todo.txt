@@ -9,3 +9,16 @@ Analysis from 1450 to 1485
 delete index 1454 because their values are englobed by the previous candlestick
 the minimum for the comparisson for first two segments is the Low of 1453
 if the prices in between the two segments are below the minimum previously defined, dont marge
+
+for the levels add a end column
+
+for the wafes an array like with 
+no
+beginning
+end
+valid
+broken - time 
+
+vs. number of the wafe-line
+
+line from starting point candle low to ending point candle high (done)
