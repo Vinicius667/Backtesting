@@ -22,3 +22,10 @@ broken - time
 vs. number of the wafe-line
 
 line from starting point candle low to ending point candle high (done)
+
+2023-11-07
+monotonously rising: 	consecutive candles with higher lows up to a candle with a lower or equal high and lower low
+monotonously falling: 	consecutive candles with lower highs up to a candle with a higher or equal low and higher high
+special at the end of a monotonously period: rising and ending with a higher or equal high green candle with lower low, followed by a red equal high candle: will add two wave parts
+same for the opposite direction
+new candels which are included the length of the old candle (between low and high) do not count
