@@ -24,8 +24,9 @@ vs. number of the wafe-line
 line from starting point candle low to ending point candle high (done)
 
 2023-11-07
-monotonously rising: 	consecutive candles with higher lows up to a candle with a lower or equal high and lower low
-monotonously falling: 	consecutive candles with lower highs up to a candle with a higher or equal low and higher high
-special at the end of a monotonously period: rising and ending with a higher or equal high green candle with lower low, followed by a red equal high candle: will add two wave parts
-same for the opposite direction
-new candels which are included the length of the old candle (between low and high) do not count
+1. monotonously rising: 	consecutive candles with higher lows up to a candle with a lower or equal high and lower low
+2. monotonously falling: 	consecutive candles with lower highs up to a candle with a higher or equal low and higher high
+3. special at the end of a monotonously rising period:  ending with a higher or equal high green candle with lower low, followed by a red equal high candle: will add two wave parts
+    see Screenshot 2023-11-07 182957.png
+4. special at the end of a monotonously falling period: ending with a lower or equal low red candle with higher high, followed by a green equal low candle: will add two wave parts
+5. new candels which are included the length of the old candle (between low and high) do not count
